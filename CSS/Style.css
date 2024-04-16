@@ -53,6 +53,7 @@ body {
     cursor: pointer;
     align-content: center;
     text-decoration: none;
+    font-size: 1vmax;
 }
 
 .book-now-btn:hover {
@@ -63,6 +64,7 @@ body {
     color: #191818;
     text-decoration: none;
     padding: 0 15px;
+    font-size: 1vmax;
 }
 
 .contact-us-section {
@@ -236,7 +238,7 @@ a {
     transform: translate(-50%, -50%);
     z-index: 2; 
     color: #F0F2F1;
-    font-size: 1vw;
+    font-size: 1vmax;
 }
 
 .bottom-content {
@@ -250,7 +252,7 @@ a {
 
 .bottom-content p {
     color: #F0F2F1;
-    font-size: 1.5vw;
+    font-size: 1.5vmax;
     margin: 2vw;
     border-top: 0.5px solid #F0F2F1;
     padding-top: 1vw;
@@ -301,7 +303,7 @@ a {
 
 .small-text {
     line-height: 1.6;
-    font-size: 1.2vw; 
+    font-size: 1.2vmax; 
     padding-left: 0.7vw;
     text-align: right;
     padding-bottom: 0.5vw;
@@ -309,7 +311,7 @@ a {
 }
 
 .right-column .small-text {
-    font-size: 1.4vw; 
+    font-size: 1.4vmax; 
     margin-bottom: 0.7vw;
     color:#191818;
     line-height: 80%;
@@ -367,7 +369,7 @@ a {
 }
 
 .full-screen-section .intro-text {
-    font-size: 1.4vw;
+    font-size: 1.4vmax;
     color: #F0F2F1;
 }
 
@@ -403,7 +405,7 @@ a {
     padding: 1.1vw; 
     text-align: left;
     color: #191818;
-    font-size: 1.1vw;
+    font-size: 1.1vmax;
     font-variation-settings: "wght" 600;
     z-index: 2; 
     background-color: #F0F2F1; 
@@ -413,7 +415,7 @@ a {
     position: absolute;
     bottom: 0; 
     width: 100%; 
-    height: 90%;  
+    height: 90%; 
     object-fit: cover;
     transition: transform 0.5s ease; 
 }
@@ -429,7 +431,7 @@ a {
 }
 
 .custom-experience {
-    font-size: 1.1vw;
+    font-size: 1.2vmax;
     color: #F0F2F1;
     margin-left: 1.4vw;
     padding-bottom: 2vw;
@@ -761,7 +763,7 @@ a {
 }
 
 .book-now-btn-2 {
-    padding: 0.5vw 6.5vw;
+    padding: 0.5 6.5vw;
     border-radius: 15px;
     background-color: #191818;
     color: #F0F2F1;
@@ -893,6 +895,7 @@ h3 {
     border-top: 0.5px solid #F0F2F1;
     padding-top: 1vw;
 }
+
 .sources
 {
     font-size: 1vw;
@@ -901,7 +904,7 @@ h3 {
 
 /* Media Querry */
 @media all and (max-width: 600px) {
-    /* Navbar Adjustments */
+    
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -909,7 +912,7 @@ h3 {
     }
 
     .nav-logo {
-        display: none; /* Hide the logo */
+        display: none;
     }
 
     .nav-center {
@@ -930,7 +933,7 @@ h3 {
 
     }
 
-    /* Carousel Adjustments */
+   
     .carousel {
         flex-direction: row;
         overflow-x: auto;
@@ -945,7 +948,7 @@ h3 {
         display: inline-block;
     }
 
-    /* Footer Adjustments */
+
     .footer-section .footer-content {
         flex-direction: column;
         align-items: center;
@@ -970,7 +973,7 @@ h3 {
         padding-left: 8rem;
     }
 
-    /* Info Section Adjustments */
+
     .info-section {
         display: flex;
         flex-direction: column;
@@ -984,13 +987,15 @@ h3 {
     }
 }
 
-/* Responsive Font Sizes Using 'vw' */
+
 @media (max-width: 600px) {
     .centered-logo-sponsor {
         top: 48%;
+        left: 63%;
+        
     }
     body, p, h1, h2, h3, a, button {
-        font-size: 4.5vw; /* Base font size for small devices */
+        font-size: 4.5vw; 
     }
 
     .info-section h1, .features-section .feature h3 {
@@ -1001,14 +1006,15 @@ h3 {
         font-size: 5.5vw;
     }
 
-    .carousel .card p, .footer-section p, .navbar a, .menu-button {
+    .carousel .card p, .footer-section p, .menu-button {
         font-size: 3.5vw;
+        padding-left: 4vw;
     }
 }
 
 @media (max-width: 480px) {
     body, p, h1, h2, h3, a, button {
-        font-size: 5vw; /* Slightly larger for very small devices */
+        font-size: 5vw; 
     }
 
     .info-section h1, .features-section .feature h3 {
@@ -1026,13 +1032,13 @@ h3 {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 6vw; /* Adjusting for mid-sized devices */
+        font-size: 6vw; 
     }
 }
 
 @media (max-width: 1258px) {
     h1 {
-        font-size: 3vw + 2.2vw; /* Responsive scaling */
+        font-size: 3vw + 2.2vw; 
     }
 }
 
@@ -1042,7 +1048,7 @@ h3 {
         font-size: 6vw; 
     }
 }@media all and (max-width: 600px) {
-    /* Navbar Adjustments */
+    
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -1050,7 +1056,7 @@ h3 {
     }
 
     .nav-logo {
-        display: none; /* Hide the logo, replace with links */
+        display: none; 
     }
 
     .nav-center {
@@ -1059,50 +1065,50 @@ h3 {
 
     .nav-links {
         display: flex; 
-        flex-direction: row; /* Stack links vertically */
+        flex-direction: row; 
         width: 100%;
-        align-items: center; /* Center alignment of links */
-        padding-top: 10px; /* Space above links */
+        align-items: center; 
+        padding-top: 10px; 
         padding-left: 0px;
     }
 
     .nav-links a {
-        display: block; /* Block display to take full width */
-        padding: 39px; /* Padding for tap targets */
+        display: block; 
+        padding: 39px; 
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
     .carousel {
-        flex-direction: row; /* Ensure cards are aligned in a row */
-        overflow-x: auto; /* Allows horizontal scrolling on smaller devices */
-        white-space: nowrap; /* Prevents wrapping of items */
-        padding: 10px 0; /* Padding inside the carousel container */
+        flex-direction: row; 
+        overflow-x: auto; 
+        white-space: nowrap; 
+        padding: 10px 0; 
     }
 
     .carousel .card {
-        flex: 0 0 auto; /* Do not grow, do not shrink, automatic width based on content */
-        width: 50%; /* Set a specific width for each card */
-        margin: 5px; /* Consistent margin for spacing */
-        display: inline-block; /* Treat cards as inline-block for horizontal layout */
+        flex: 0 0 auto; 
+        width: 50%; 
+        margin: 5px; 
+        display: inline-block; 
     }
 
-    /* Footer content adjustment */
+   
     .footer-section .footer-content {
-        flex-direction: column; /* Stacks footer contents vertically */
-        align-items: center; /* Centers the content for better alignment */
+        flex-direction: column; 
+        align-items: center; 
         padding: 10px;
-        text-align: center; /* Ensures text in footer is centered */
+        text-align: center; 
     }
 
     .footer-section .footer-right,
     .footer-section .footer-left {
-        width: 100%; /* Ensures footer sections do not overflow and fit within the screen */
-        padding: 5px; /* Minimal padding for maximum space usage */
+        width: 100%; 
+        padding: 5px; 
     }
 
     .footer-section .footer-nav-links {
-        justify-content: center; /* Center aligns footer navigation links */
+        justify-content: center; 
         padding: 0;
     }
 
@@ -1111,42 +1117,41 @@ h3 {
     }
 
     .footer-nav-links img {
-        width: 80%; /* Smaller size for mobile devices */
-        height: auto; /* Maintain aspect ratio */
+        width: 80%; 
+        height: auto; 
         padding-left: 8rem;
     }
 
-    /* Info Section Adjustments */
     .info-section {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center content */
+        align-items: center; 
         height: fit-content;
     }
 
     .info-section .left-column, .info-section .right-column {
-        width: 100%; /* Full width to prevent squeezing */
-        padding: 10px; /* Padding adjustment */
+        width: 100%; 
+        padding: 10px; 
     }
 
     .info-section .left-column h1 {
-        font-size: 14px; /* Adjust font size for readability */
-        padding: 0 1rem; /* Reduced padding */
+        font-size: 14px; 
+        padding: 0 1rem; 
         size-adjust: auto;
     }
 
     .info-section .right-column img {
-        max-height: 150px; /* Adjust max-height to prevent cutting off */
-        width: auto; /* Maintain aspect ratio */
-        margin-bottom: 10px; /* Space below image */
+        max-height: 150px; 
+        width: auto; 
+        margin-bottom: 10px; 
     }
     @media (max-width: 768px) {
         body, p, h1, h2, h3, a, button {
-            font-size: 14px; /* Slightly smaller font sizes */
+            font-size: 14px; 
         }
     
         .info-section h1, .features-section .feature h3 {
-            font-size: 18px; /* Adjust heading sizes */
+            font-size: 18px; 
         }
     
         .footer-section h1 {
@@ -1154,18 +1159,18 @@ h3 {
         }
     
         .carousel .card p, .footer-section p, .navbar a, .menu-button {
-            font-size: 12px; /* Smaller for detailed text */
+            font-size: 12px; 
         }
     }
     
-    /* Very small devices (Phones) */
+   
     @media (max-width: 480px) {
         body, p, h1, h2, h3, a, button {
-            font-size: 12px; /* Further reduction for small devices */
+            font-size: 12px; 
         }
     
         .info-section h1, .features-section .feature h3 {
-            font-size: 16px; /* Maintain readability for key headings */
+            font-size: 16px; 
         }
     
         .footer-section h1 {
@@ -1173,26 +1178,26 @@ h3 {
         }
     
         .carousel .card p, .footer-section p, .navbar a, .menu-button {
-            font-size: 10px; /* Minimum size for secondary text */
+            font-size: 10px; 
         }
     }
     @media (max-width: 1258px) {
         h1 {
-            font-size: calc(22px + 1.5vw); /* Slightly smaller base size with a slower growth rate */
+            font-size: calc(22px + 1.5vw); 
         }
     }
     
-    /* Further adjust if needed for smaller screens */
+    
     @media (max-width: 768px) {
         h1 {
-            font-size: calc(20px + 1vw); /* Even smaller base size with the smallest growth rate */
+            font-size: calc(20px + 1vw); 
         }
     }
     
-    /* Set a minimum font size for very small screens */
+    
     @media (max-width: 480px) {
         .info-section p {
-            font-size: 10vw; /* Fixed small size for very small devices */
+            font-size: 10vw; 
         }
     }
 }
