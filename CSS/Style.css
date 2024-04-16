@@ -893,6 +893,11 @@ h3 {
     border-top: 0.5px solid #F0F2F1;
     padding-top: 1vw;
 }
+.sources
+{
+    font-size: 1vw;
+    padding: 2.2vw;
+}
 
 /* Media Querry */
 @media all and (max-width: 600px) {
