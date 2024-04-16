@@ -32,7 +32,7 @@ body {
 
 /* Ensure the rest of the page content does not hide under the fixed navbar */
 body {
-    padding-top: 0px;
+    padding-top: 60px;
 }
 
 .nav-item {
